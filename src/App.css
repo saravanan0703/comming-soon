@@ -1,0 +1,119 @@
+@import 'index.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body {
+  overflow: hidden;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.images-list > img {
+  width: 95%;
+  height: 30vh;
+}
+.Submit-Button {
+  text-align: center;
+  margin-top: 12px;
+  width: 400px;
+}
+@media (max-width: 480px) {
+  .Submit-Button {
+    width: 280px;
+  }
+
+}
+.Submit-Button  > button {
+  width: 100%;
+  padding: 14px;
+  background-color: #44FFE6;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.h-669 {
+  height: 669px;
+}
+@media (max-width: 480px) {
+  .h-669 {
+    height: 355px;
+  }
+  .top-0 {
+    top: -10rem !important;
+  }
+}
+
+.top-0 {
+  top: -35rem;
+}
+
+h1 {
+  font-family: 'Futura' sans-serif;
+}
+
+.main-content::after {
+  display: block;
+  position: absolute;
+  background: linear-gradient(38.68deg, #000000 30.33%, rgba(0, 0, 0, 0) 60.42%);
+  top: -10rem;
+  bottom: 0; 
+  left: -85px;
+  z-index: 1;
+  height: 140vh;
+  width: 100%;
+  content: '';
+  transform: scalex(1.5);
+}
+
+@media (max-width: 480px) {
+  .image-width {
+    width: 330px !important;
+  }
+}
+.image-width {
+  width: 669px;
+}
+.tild-screen {
+  transform: rotate(-13.65deg);
+  width: 130%;
+}
+@media (max-width: 480px) {
+  .tild-screen {
+    width: 150%;
+  }
+}
