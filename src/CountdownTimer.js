@@ -34,9 +34,9 @@ function CountdownTimer({ targetDate }) {
   
   return (
     <div>
-      <span>{formatTime(remainingTime.hours)}:</span>
-      <span>{formatTime(remainingTime.minutes)}:</span>
-      <span>{formatTime(remainingTime.seconds)}</span>
+      <span>{formatTime(remainingTime.hours)}hr</span><br/>
+      <span>{formatTime(remainingTime.minutes)}min</span><br/>
+      <span>{formatTime(remainingTime.seconds)}secs</span>
     </div>
   );
 }

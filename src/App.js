@@ -1,10 +1,12 @@
 import React from 'react'
-import sample from './sample-1.jpg'
-import sample2 from  './sample-2.jpg'
-import sample3 from './images/sample-3.jpg'
-import sample4 from './images/sample-4.png'
-import sample5 from './images/sample-5.jpg'
-import sample6 from './images/sample-6.jpg'
+import sample from './images/image1.jpg'
+import sample2 from  './images/image2.jpg'
+import sample3 from './images/image3.jpg'
+import sample4 from './images/image4.jpg'
+import sample5 from './images/image5.jpg'
+import sample6 from './images/image6.jpg'
+import sample7 from './images/image7.jpg'
+
 import './App.css'
 import robotlogo from './robot-logo.png';
 import CountdownTimer from './CountdownTimer'
@@ -18,10 +20,12 @@ function App() {
     { src: sample4},
     { src: sample5},
     { src: sample6},
+    { src: sample7},
+
   ]  
   
 
-  const targetDate = new Date('May 18, 2023 23:59:59');
+  const targetDate = new Date('Jun 18, 2024 23:59:59');
 
   return (
     <div className='bg-black overflow-hidden '>
@@ -51,13 +55,13 @@ function App() {
             <img src=''></img>
           </div>
           <h1 className='text-6xl max-[480px]:text-3xl max-[480px]:leading-10	 mb-10	w-7/12 max-[480px]:w-10/12	font-bold'>
-            create the dopest custom prints in seconds with ai
+            Some Samples 
           </h1>
           <div className="Submit-Button mb-8">
-            <button className="max-[480px]:text-base text-2xl	">Sign up for the waitlist</button>
+            <button className="max-[480px]:text-base text-2xl	">Sign up</button>
           </div>
           <p className='mb-10 text-xl	capitalize max-[480px]:text-base max-[480px]:w-64	'>
-            first 100 sign-ups have a chance to win an exclusive gifts
+            Some content
           </p>
           <h1 className='text-5xl mb-24	 font-bold'>
           <CountdownTimer targetDate={targetDate} />
